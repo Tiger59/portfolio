@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Tiger Portfolio",
+  "short_name": "Tiger Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
