@@ -7,8 +7,8 @@ class Skills extends React.Component {
         <div class="container">
           <div class="row">
             <div class="col-xl-12 col-lg-offset-2">
-              <div class="section-heading text-center text-white">
-                <h2 class="wow bounceInDown " data-wow-delay="0.3s">Skills</h2>
+              <div class="section-heading text-center s">
+                <h2 class="text-4xl text-center font-semibold py-2">Skills</h2>
               </div>
             </div>
           </div>

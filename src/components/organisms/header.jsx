@@ -12,9 +12,10 @@ class Header extends React.Component {
                   <li class="active nav-item"><a class="nav-link" href="#home">Home</a></li>
                   <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
                   <li class="nav-item"><a class="nav-link" href="#carrier">Carrier</a></li>
-                  <a class="nav-link" href="#skills">Skills</a>
+                  <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                   <li class="nav-item"><a class="nav-link" href="#qualifications">Qualifications</a></li>
                   <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
                   <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
               </div>

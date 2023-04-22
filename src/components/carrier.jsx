@@ -7,8 +7,8 @@ class Carrier extends React.Component {
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12 col-lg-offset-2">
-                            <div class="section-heading text-center text-white">
-                                <h2 class="wow bounceInDown " data-wow-delay="0.3s">Carrier</h2>
+                            <div class="section-heading text-center ">
+                                <h2 class="text-4xl text-center font-semibold py-2" >Carrier</h2>
                             </div>
                         </div>
                     </div>
@@ -22,14 +22,14 @@ class Carrier extends React.Component {
                                         <th scope="row">2020~</th>
                                     </div>
                                     <td>
-                                        <a href="https://www.synergy-marketing.co.jp" target="_blank">シナジーマーケティング株式会社</a>
+                                        <a href="https://www.synergy-marketing.co.jp" target="_blank"  rel="noopener noreferrer">シナジーマーケティング株式会社</a>
                                     </td>
                                     <td>CRM プラットフォーム Synergy! のバックエンドエンジニア</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2019~2020</th>
                                     <td>
-                                        <a href="https://neton.co.jp" target="_blank">
+                                        <a href="https://neton.co.jp" target="_blank"  rel="noopener noreferrer">
                                             neton株式会社 長期インターン
                                         </a>
                                     </td>
@@ -38,7 +38,7 @@ class Carrier extends React.Component {
                                 <tr>
                                     <th scope="row">2016~2020</th>
                                     <td>
-                                        <a href="https://www.konan-u.ac.jp/faculty/ii/ii/" target="_blank">
+                                        <a href="https://www.konan-u.ac.jp/faculty/ii/ii/" target="_blank"  rel="noopener noreferrer">
                                             甲南大知能学情報学部
                                         </a>
                                     </td>

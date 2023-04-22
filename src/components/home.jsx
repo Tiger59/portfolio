@@ -1,35 +1,28 @@
 import React from 'react';
 import icon from '../images/icon.jpg'
-
+import dayjs from 'dayjs';
 
 class Home extends React.Component {
     render() {
+        const age = dayjs().diff(dayjs('1998-03-17'), 'year');
         return (
             <section id="home" class="home-section">
-                <div class="container">
-                    <div class="section-heading text-center">
-                        <div class="wow bounceInDown" data-wow-delay="0.2s">
-                            <h2>Hi! I'm Tiger.</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-8 mx-auto">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src={icon} class="img-fluid rounded " class="rounded  offset-m profile-img" width="100%" alt="" />
+                <div class="container mx-auto">
+                    <h2 class='text-4xl text-center font-medium py-10'>Hi! I'm Tiger.</h2>
+                        <div  class="grid gap-6 grid-flow-row-dence grid-cols-3 justify-center xl:px-40">
+                                <div class="col-span-3  md:col-span-1  sm:col-span-3">
+                                    <img src={icon} class="shadow rounded-full max-w-full h-auto align-middle border-none" width="100%" alt="" />
                                 </div>
-                                <div class="col-8">
-                                    <p class="wow bounceInUp" data-wow-delay="0.3s">
-                                        <span>はじめまして。<span id="age"></span> 歳、システムエンジニアの岸本 大河です。</span>
-                                        <span>このページでは、これまでに手がけた制作物、身につけたスキルなどをまとめています。</span>
-                                        <span>私のことを簡単に知っていただければと思い作成したので、どうぞごゆるりとご覧ください。</span>
-                                    </p>
+                                <div class="col-span-3  md:col-span-2 sm:col-span-3 ">
+                                    はじめまして。{age} 歳、システムエンジニアの岸本 大河です。
+                                        このページでは、これまでに手がけた制作物、身につけたスキルなどをまとめています。
+                                        私のことを簡単に知っていただければと思い作成したので、どうぞごゆるりとご覧ください。
                                 </div>
-                            </div>
                         </div>
-                    </div>
                 </div>
+                
             </section>
+            
         );
     }
 }

@@ -8,12 +8,10 @@ class Qualifications extends React.Component {
                     <div class="row">
                         <div class="col-xl-12 col-lg-offset-2">
                             <div class="section-heading text-center">
-                                <div class="wow bounceInDown" data-wow-delay="0.4s">
-                                    <div class="section-heading">
-                                        <h2>Qualifications</h2>
+                                    <div class>
+                                        <h2 class="text-4xl text-center font-semibold py-2">Qualifications</h2>
                                     </div>
                                     <p><strong>これまでに取得した資格です。</strong></p>
-                                </div>
                             </div>
                         </div>
                     </div>
