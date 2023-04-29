@@ -3,7 +3,7 @@ import React from 'react';
 class Works extends React.Component {
   render() {
     return (
-        <section id="works" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+        <section id="works" class="home-section parallax text-center  py-32" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row">
             <div class="col-xl-12 col-lg-offset-2">

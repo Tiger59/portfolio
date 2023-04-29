@@ -3,37 +3,45 @@ import React from 'react';
 class Qualifications extends React.Component {
     render() {
         return (
-            <section id="qualifications" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-offset-2">
-                            <div class="section-heading text-center">
-                                    <div class>
-                                        <h2 class="text-4xl text-center font-semibold py-2">Qualifications</h2>
-                                    </div>
-                                    <p><strong>これまでに取得した資格です。</strong></p>
+            <section id="qualifications" class="home-section parallax text-center  py-10" data-stellar-background-ratio="0.5">
+                    <div class="flex items-center justify-center py-5">
+                        <div class="container relative z-30 ">
+                            <div class="section-heading text-center ">
+                                <h2 class="text-4xl text-center font-semibold pb-3">Qualifications</h2>
+                            </div>
+                            <h2 class="text-2xl text-center font-semibold pb-6">保有する資格の一覧です</h2>
+                            <div class="grid gap-3 grid-flow-row-dence grid-cols-3 justify-center xl:px-40 px-10">
+
+                                <div class="col-span-3 lg:col-span-1 ">
+                                    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow  hover:bg-gray-100">
+                                        <div class="flex flex-col justify-between p-4 leading-normal">
+                                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">ITパスポート</h5>
+                                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">情報系初級国家資格</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-span-3 lg:col-span-1 ">
+                                    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+                                        <div class="flex flex-col justify-between p-4 leading-normal">
+                                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">ITパスポート</h5>
+                                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">情報系初級国家資格</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-span-3 lg:col-span-1 ">
+                                    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+                                        <div class="flex flex-col justify-between p-4 leading-normal">
+                                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">ITパスポート</h5>
+                                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">情報系初級国家資格</p>
+                                        </div>
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="col-md-12 chronology">
-                        <table class="table table-hover">
-                            <tbody>
-                                <tr>
-                                    <th scope="row">2020</th>
-                                    <td>ITパスポート</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2019</th>
-                                    <td>
-                                        Python3 エンジニア認定基礎試験
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
             </section>
         );
     }

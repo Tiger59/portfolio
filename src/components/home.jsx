@@ -6,7 +6,7 @@ class Home extends React.Component {
     render() {
         const age = dayjs().diff(dayjs('1998-03-17'), 'year');
         return (
-            <section id="home" class="home-section">
+            <section id="home" class="py-32">
                 <div class="container mx-auto">
                     <h2 class='text-4xl text-center font-medium py-10'>Hi! I'm Tiger.</h2>
                         <div  class="grid gap-6 grid-flow-row-dence grid-cols-3 justify-center xl:px-40">
@@ -15,8 +15,8 @@ class Home extends React.Component {
                                 </div>
                                 <div class="col-span-3  md:col-span-2 sm:col-span-3 ">
                                     はじめまして。{age} 歳、システムエンジニアの岸本 大河です。
-                                        このページでは、これまでに手がけた制作物、身につけたスキルなどをまとめています。
-                                        私のことを簡単に知っていただければと思い作成したので、どうぞごゆるりとご覧ください。
+                                    このページでは、これまでに手がけた制作物、身につけたスキルなどをまとめています。
+                                    私のことを簡単に知っていただければと思い作成したので、どうぞごゆるりとご覧ください。
                                 </div>
                         </div>
                 </div>

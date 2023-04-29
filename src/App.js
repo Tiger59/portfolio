@@ -6,7 +6,6 @@ import About from './components/about'
 import Carrier from './components/carrier'
 import Skills from './components/skills'
 import Qualifications from './components/qualifications'
-import Works from './components/works'
 import SocialMedia from './components/socialMedia';
 import Blog from './components/blog';
 import Footer from './components/organisms/footer';
@@ -21,7 +20,6 @@ function App() {
       <Carrier />
       <Skills />
       <Qualifications />
-      <Works />
       <SocialMedia />
       <Blog/>
       <Footer />
