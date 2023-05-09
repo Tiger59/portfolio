@@ -23,11 +23,21 @@ function BlogCardQiita() {
 
                 {post.map((data) => {
                     return (
-                        <div>
-                            <p>
-                        <a href={data.url} target="_blank" rel="noopener noreferrer"> {data.title} </a>
-                        </p>
-                        <p>{new Date(data.updated_at).toLocaleDateString()}</p>
+                        <div class="text-left py-1 px-4">
+                            <p class="text-black">
+                                <a href={data.url} target="_blank" rel="noopener noreferrer" class="font-medium text-black hover:underline"> {data.title} </a>
+                            </p>
+
+                            <div class="flex items-center">
+                            {data.tags.map((tag) => {
+                                    return (<p class = "bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded ">{tag.name}</p>)
+                                })}
+                            </div>
+                            <div class="flex items-center">
+                                <p>{new Date(data.updated_at).toLocaleDateString()}</p>
+                                <i class="fa-solid fa-folder px-2"></i>
+                                <p>{data.stocks_count}</p>
+                            </div>
                         </div>
                     );
                 })}
