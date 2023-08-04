@@ -13,30 +13,32 @@ class Skills extends React.Component {
             <div class="grid gap-3 grid-flow-row-dence grid-cols-3 justify-center xl:px-40 px-10">
 
               <div class="col-span-3 lg:col-span-1 ">
-                <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+                <div href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
                   <div class="flex flex-col justify-between p-4 leading-normal">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">バックエンドエンジニア</h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Kotlin, Java, SpringBoot2</p>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">バックエンド</h5>
+                    <p class="mb-3 font-normal text-gray-700 ">Kotlin, Java, SpringBoot</p>
+                    <p class="mb-3 font-normal text-gray-700 ">Python, Flask</p>
                   </div>
-                </a>
+                </div>
               </div>
 
               <div class="col-span-3 lg:col-span-1 ">
-                <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow  hover:bg-gray-100">
+                <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow  hover:bg-gray-100">
                   <div class="flex flex-col justify-between p-4 leading-normal">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">バックエンドエンジニア</h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Kotlin, Java, SpringBoot2</p>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">フロントエンド</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">JavaScript, TypeScript, React</p>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Tailwind</p>
                   </div>
-                </a>
+                </div>
               </div>
 
               <div class="col-span-3 lg:col-span-1 ">
-                <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow  hover:bg-gray-100">
+                <div href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow  hover:bg-gray-100">
                   <div class="flex flex-col justify-between p-4 leading-normal">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">バックエンドエンジニア</h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Kotlin, Java, SpringBoot2</p>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">インフラストラクチャ</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Kubernetes,AWS,Firebase</p>
                   </div>
-                </a>
+                </div>
               </div>
 
             </div>

@@ -33,10 +33,10 @@ class Intro extends React.Component {
                     <div class="grid-cols-1">
 
                       <div class="flex items-center justify-center pl-2 sm:justify-start sm:pt-0">
-                        <a href="https://www.facebook.com/taiga.kishimoto.14" class="pl-4"><i class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i></a>
-                        <a href="http://twitter.com/koneko59" class="pl-4"><i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i></a>
+                        <a href="https://www.facebook.com/taiga.kishimoto.14" target="_blank" rel="noopener noreferrer" class="pl-4"><i class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i></a>
+                        <a href="http://twitter.com/koneko59" target="_blank" rel="noopener noreferrer" class="pl-4"><i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i></a>
                         <a href="/" class="pl-4"><i class="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i></a>
-                        <a href="/" class="pl-4"><i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i></a>
+                        <a href="http://www.linkedin.com/in/taiga-kishimoto" target="_blank" rel="noopener noreferrer" class="pl-4"><i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i></a>
                       </div>
 
                     <div class="flex items-center justify-center pl-2 sm:justify-start sm:pt-0">

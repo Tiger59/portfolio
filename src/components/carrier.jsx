@@ -37,10 +37,9 @@ class Carrier extends React.Component {
                                                 <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
                                                 <div class="md:-mt-1 md:pl-8">
                                                     <a class="block pt-2 font-header text-xl font-bold uppercase text-primary" href="https://www.synergy-marketing.co.jp" target="_blank" rel="noopener noreferrer">シナジーマーケティング株式会社</a>
-
                                                     <div class="pt-2">
                                                         <span class="block font-body text-black">
-                                                            CRM プラットフォーム Synergy! のバックエンドエンジニア.採用係長の開発に参加させていただきました
+                                                            CRM プラットフォーム Synergy! の顧客管理などに使われるデータベース機能のバックエンドエンジニア.
                                                         </span>
                                                     </div>
                                                 </div>
@@ -70,7 +69,7 @@ class Carrier extends React.Component {
                                                         株式会社ネットオン
                                                     </a>
                                                     <div class="pt-2">
-                                                        <span class="block font-body text-black">長期インターンに参加させていただきました。採用係長の開発に参加させていただきました</span>
+                                                        <span class="block font-body text-black">長期インターンに参加させていただきました。PHPを使い採用係長の開発や開発環境の検証などをしました。</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -83,12 +82,15 @@ class Carrier extends React.Component {
                                             <span class="shrink-0">
                                                 April 2016 - March 2020
                                             </span>
+                                            <div class="relative ml-3 hidden w-full md:block">
+                                                <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-black"></span>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="md:w-3/5">
                                         <div class="relative flex md:pl-18">
                                             <span
-                                                class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+                                                class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40"></span>
 
                                             <div class="mt-1 flex">
                                                 <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
@@ -97,10 +99,7 @@ class Carrier extends React.Component {
                                                         甲南大知能学情報学部
                                                     </a>
                                                     <div class="pt-2">
-                                                        <span class="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                            elit.
-                                                            Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                                                            venenatis enim.</span>
+                                                        <span class="block font-body text-black">大学時代の専門はソフトウェア工学で、リバースエンジニアリングやフォワードエンジニアリングについて研究。卒業論文ではゼミ活動で作成したアプリのバックエンドをnode.jsで作成し直し生産性などを比較を行った。</span>
                                                     </div>
                                                 </div>
                                             </div>

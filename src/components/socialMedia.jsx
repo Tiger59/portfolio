@@ -3,7 +3,7 @@ import React from 'react';
 class SocialMedia extends React.Component {
   render() {
     return (
-      <section id="contact" class="home-section parallax text-center  py-10" data-stellar-background-ratio="0.5">
+      <section id="socialmedia" class="home-section parallax text-center  py-10" data-stellar-background-ratio="0.5">
         <div class="flex items-center justify-center py-5">
           <div class="container relative z-30 ">
             <div class="col-xl-12 col-lg-offset-2">
@@ -51,11 +51,11 @@ class SocialMedia extends React.Component {
                 <div class="col-span-1">
                   <div class="align-center txt-shadow">
                     <div class="icon">
-                      <a href="https://t.me/Tiger_rip" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-brands fa-telegram fa-5x"></i>
+                      <a href="https://www.threads.net/@tigre.qui.rit" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-brands fa-threads fa-5x"></i>
                       </a>
                     </div>
-                    <span class="color-white">Telegram</span>
+                    <span class="color-white">Threads</span>
                   </div>
                 </div>
 

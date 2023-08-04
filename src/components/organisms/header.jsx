@@ -28,8 +28,8 @@ class Header extends React.Component {
                   <li><a class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white" href="#skills">Skills</a></li>
                   <li><a class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white" href="#qualifications">Qualifications</a></li>
                   <li><a class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white" href="#works">Works</a></li>
+                  <li ><a class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white" href="#socialmedia">Social Media</a></li>
                   <li><a class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white" href="#blog">Blog</a></li>
-                  <li ><a class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white" href="#contact">Contact</a></li>
                 </ul>
               </div>
             </div>
