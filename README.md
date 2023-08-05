@@ -1,2 +1,2 @@
 # portfolio
-My site is published at https://tiger59.github.io/portfolio-2023/
+My site is published at https://tiger59.github.io/portfolio/
