@@ -29,8 +29,8 @@ function BlogCardQiita() {
                             </p>
 
                             <div class="flex items-center">
-                            {data.tags.map((tag) => {
-                                    return (<p class = "bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded ">{tag.name}</p>)
+                                {data.tags.map((tag) => {
+                                    return (<p class="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded ">{tag.name}</p>)
                                 })}
                             </div>
                             <div class="flex items-center">
