@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.68110377.css",
-    "main.js": "/portfolio/static/js/main.ecf097ac.js",
+    "main.js": "/portfolio/static/js/main.9b215312.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bg-hero.jpg": "/portfolio/static/media/bg-hero.f64d4f9e52f7cb5ed43c.jpg",
     "static/media/techscoreblog.jpg": "/portfolio/static/media/techscoreblog.6d3f2be775af626ee41f.jpg",
     "static/media/img1.jpg": "/portfolio/static/media/img1.955d559c0bac16d30d52.jpg",
     "static/media/icon.jpg": "/portfolio/static/media/icon.8c3127397bf778522175.jpg",
-    "static/media/laughing_tiger_logo.svg": "/portfolio/static/media/laughing_tiger_logo.dbf2de04dc91e954abe2628425d481a9.svg",
+    "static/media/laughing_tiger_logo.svg": "/portfolio/static/media/laughing_tiger_logo.1f95621b7b1bfd96b9420735dc66c8e3.svg",
     "index.html": "/portfolio/index.html",
     "main.68110377.css.map": "/portfolio/static/css/main.68110377.css.map",
-    "main.ecf097ac.js.map": "/portfolio/static/js/main.ecf097ac.js.map",
+    "main.9b215312.js.map": "/portfolio/static/js/main.9b215312.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68110377.css",
-    "static/js/main.ecf097ac.js"
+    "static/js/main.9b215312.js"
   ]
 }
